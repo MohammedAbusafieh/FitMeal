@@ -17,44 +17,60 @@ FitMeal is an Android nutrition and fitness management application designed to h
 ## Screenshots
 
 ### Login & Registration
+
 ![Login](screenshots/login.png)
+
 ![Register](screenshots/register.png)
 
+
 ### Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
+
 ### Goal Setting
+
 ![Goal Setting](screenshots/goal-setting.png)
 
+
 ### Meal Planner
+
 ![Meal Planner](screenshots/meal-planner.png)
 
+
 ### Grocery List
+
 ![Grocery List](screenshots/grocery-list.png)
 
+
 ### Progress Tracking
+
 ![Progress](screenshots/progress.png)
+
 
 ## Technologies Used
 
 - Kotlin
 - Android Studio
+- Android SDK
 - Jetpack Components
 - XML Layouts
 - Gradle
 
+
 ## Project Structure
 
-
+```text
 FitMeal
 │
-├── app/                 # Android source code
+├── app/                 # Android application source code
 ├── screenshots/         # Application screenshots
-├── gradle/              # Gradle files
-├── build.gradle.kts     # Build configuration
-└── settings.gradle.kts  # Project settings
-
+├── gradle/              # Gradle configuration files
+├── build.gradle.kts     # Project build configuration
+└── settings.gradle.kts  # Gradle project settings
+```
 
 
 ## Author
+
 Mohammed Khalid Abusafieh
