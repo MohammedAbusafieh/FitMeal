@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fitmeal_orange">#FF7043</color>
+    <color name="fitmeal_orange_dark">#E64A19</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

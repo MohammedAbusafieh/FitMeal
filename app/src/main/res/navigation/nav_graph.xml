@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.fitmeal.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fitmeal.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <!-- ✅ Action to SetGoalFragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_setGoalFragment"
+            app:destination="@id/setGoalFragment" />
+    </fragment>
+
+    <!-- SetGoal Fragment -->
+    <fragment
+        android:id="@+id/setGoalFragment"
+        android:name="com.example.fitmeal.SetGoalFragment"
+        android:label="Set Goal"
+        tools:layout="@layout/fragment_set_goal" />
+</navigation>
