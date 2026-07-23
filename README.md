@@ -44,13 +44,15 @@ FitMeal is an Android nutrition and fitness management application designed to h
 - Gradle
 
 ## Project Structure
+
+
 FitMeal
 │
-├── app
-├── screenshots
-├── gradle
-├── build.gradle.kts
-└── settings.gradle.kts
+├── app/                 # Android source code
+├── screenshots/         # Application screenshots
+├── gradle/              # Gradle files
+├── build.gradle.kts     # Build configuration
+└── settings.gradle.kts  # Project settings
 
 
 
